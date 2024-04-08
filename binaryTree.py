@@ -1,5 +1,10 @@
 
 
+
+
+
+# Latifa Umunyana
+
 class BinaryTree:
 
  def __init__(self, value):
@@ -19,8 +24,6 @@ class BinaryTree:
          else:
             self.right.insert(value)
 
-
-
  def inorder_traversal(self):
        if self.left:
           self.left.inorder_traversal()
@@ -37,3 +40,4 @@ tree.insert(3)
 tree.insert(80)
 
 tree.inorder_traversal()
+
